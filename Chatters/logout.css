@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Pacifico&display=swap');
+body {
+    background: linear-gradient(to right, #000000, #434343);
+    overflow: hidden;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 40px;
+    color: white;
+    font-family: 'Carter One', cursive;
+    
+}a {
+    text-decoration: none;
+    color: #fa8050;
+}@media only screen and (max-width: 768px) {
+    .container {
+        height: 50vh;
+    }
+}

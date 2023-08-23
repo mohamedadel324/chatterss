@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Courgette&family=Pacifico&family=Rubik:wght@300&display=swap');
+body {
+	background: #1d1d1f; 
+    color: white;
+    overflow: hidden;
+    font-family: 'Carter One', cursive;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust this value based on your needs */
+}.save {
+    position: relative;
+    left: 0px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Carter One', cursive;
+}a {
+    position: absolute;
+    color: white;
+    top: 50px;
+    left: 50px;
+    height: 0px;
+    font-size: 40px;
+    font-style: none;
+    text-decoration: none;
+    font-family: 'Carter One', cursive;
+}

@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Pacifico&display=swap');
+
+body {
+    font-family: 'Carter One', cursive;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #000000, #434343);
+    overflow: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Profile_Img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.inputs_container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#email,
+#password {
+    border-radius: 8px;
+    background: #fa8050;
+    font-family: 'Carter One', cursive;
+}
+
+.edit_password_parent,
+.genderparent {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.edit_password,
+.gender {
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    background: #fa8050;
+    font-family: 'Carter One', cursive;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+a:hover {
+    color: #f3e4e470;
+}
+
+.form_class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.inputs_container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#email,
+#password {
+    width: 300px;
+    height: 30px;
+    text-align: center;
+}
+
+.edit_password_parent,
+.genderparent {
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+}
+
+.edit_password,
+.gender {
+    width: 200px;
+    height: 30px;
+}
+
+.sub,
+.cancel {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.subbtn,
+.cancel_btn {
+    width: 200px;
+    height: 30px;
+}
+
+.oldpassword {
+    width: 300px;
+    height: 30px;
+    text-align: center;
+}
+
+.edit_username_parent {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.edit_username {
+    width: 200px;
+    height: 30px;
+}
+
+.usernameinput {
+    height: 200px;
+}
+
+.genderparent {
+    position: relative;
+    top: 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.gender {
+    height: 30px;
+    width: 200px;
+}@media only screen and (max-width: 768px) {
+    #email, #password {
+        width: 300px;
+        top: -36px;
+        position: relative;
+        height: 30px;
+        text-align: center;
+        margin-bottom: 10px;
+    }.edit_password, .gender {
+        width: 200px;
+        height: 30px;
+        border-radius: 8px;
+        background: #fa8050;
+        font-family: 'Carter One', cursive;
+        border: none;
+        cursor: pointer;
+    }a {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 25px;
+        position: relative;
+        top: -70px;
+    }.inputs_container {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+}
